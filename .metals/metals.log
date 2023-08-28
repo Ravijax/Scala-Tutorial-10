@@ -1,0 +1,111 @@
+2023.08.29 01:10:52 INFO  Started: Metals version 1.0.1 in folders '/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10' for client Visual Studio Code 1.81.1.
+Aug 29, 2023 1:10:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Aug 29, 2023 1:10:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 29, 2023 1:10:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/.metals/metals (H2 2.1)
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.016s)
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 29, 2023 1:10:53 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.032s)
+2023.08.29 01:10:53 INFO  time: initialize in 0.77s
+2023.08.29 01:11:01 INFO  Running List(/Users/ravija/Library/Application Support/Coursier/bin/scala-cli, setup-ide, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10)
+2023.08.29 01:11:01 INFO  Attempting to connect to the build server...
+2023.08.29 01:11:02 INFO  Attempting to connect to the build server...
+2023.08.29 01:11:01 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10)
+2023.08.29 01:11:02 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10)
+2023.08.29 01:11:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.29 01:11:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.29 01:11:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.29 01:11:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.29 01:11:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.29 01:11:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.29 01:11:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.29 01:11:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:06 INFO  BSP server: (watching) Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.29 01:11:06 INFO  time: Connected to build server in 4.49s
+2023.08.29 01:11:06 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.29 01:11:06 INFO  time: Connected to build server in 4.56s
+2023.08.29 01:11:06 INFO  Connected to Build server: scala-cli v1.0.1
+2023.08.29 01:11:06 INFO  Disconnecting from scala-cli session...
+2023.08.29 01:11:06 INFO  Shut down connection with build server.
+2023.08.29 01:11:06 INFO  Attempting to connect to the build server...
+2023.08.29 01:11:06 INFO  Running BSP server List(/Users/ravija/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/.scala-build/ide-options-v2.json, /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10)
+2023.08.29 01:11:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/.metals/bsp.trace.json or /Users/ravija/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.08.29 01:11:07 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 4.554s)
+2023.08.29 01:11:07 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:07 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:07 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/Q01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.29 01:11:08 INFO  time: code lens generation in 10s
+Aug 29, 2023 1:11:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Aug 29, 2023 1:11:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.08.29 01:11:08 INFO  time: Connected to build server in 1.48s
+2023.08.29 01:11:08 INFO  Connected to Build server: scala-cli v1.0.1
+Aug 29, 2023 1:11:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.08.29 01:11:08 INFO  time: Imported build in 0.13s
+2023.08.29 01:11:08 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 5.422s)
+2023.08.29 01:11:08 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:08 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:13 INFO  no build target found for /Users/ravija/Desktop/2nd Year Semester I/Functional Programming/Scala/Tutorial 10/Q02.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.29 01:11:13 INFO  time: compiled project_bd2c96d2de in 5.25s
+2023.08.29 01:11:13 INFO  time: compiled project_bd2c96d2de in 4.76s
+2023.08.29 01:11:13 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 1.354s)
+2023.08.29 01:11:13 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 1.0.1' (since 1.36s)
+2023.08.29 01:11:13 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:13 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:13 INFO  time: compiled project_bd2c96d2de in 69ms
+2023.08.29 01:11:14 INFO  time: Imported build in 5.96s
+2023.08.29 01:11:15 INFO  time: indexed workspace in 6.62s
+2023.08.29 01:11:15 WARN  Could not find semantic tokens for: file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2010/Q02.scala
+2023.08.29 01:11:18 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:18 INFO  time: compiled project_bd2c96d2de in 0.62s
+2023.08.29 01:11:19 INFO  Refreshed build after change
+2023.08.29 01:11:19 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:20 INFO  time: indexed workspace in 5.9s
+2023.08.29 01:11:20 INFO  time: compiled project_bd2c96d2de in 1.11s
+2023.08.29 01:11:20 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:20 INFO  time: compiled project_bd2c96d2de in 0.56s
+2023.08.29 01:11:20 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:20 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.08.29 01:11:22 WARN  Could not find semantic tokens for: file:///Users/ravija/Desktop/2nd%20Year%20Semester%20I/Functional%20Programming/Scala/Tutorial%2010/Q01.scala
+2023.08.29 01:11:23 INFO  compiling project_bd2c96d2de (2 scala sources)
+2023.08.29 01:11:26 INFO  time: compiled project_bd2c96d2de in 2.48s
+2023.08.29 01:12:06 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.29 01:12:06 INFO  time: compiled project_bd2c96d2de in 0.92s
+2023.08.29 01:12:12 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.08.29 01:12:15 INFO  time: compiled project_bd2c96d2de in 2.85s
